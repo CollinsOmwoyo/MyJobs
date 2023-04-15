@@ -1,9 +1,9 @@
 <?php
 // Set up your local database connection
 $servername = "localhost";
-$username = "root";
+$username = "username";
 $password = "";
-$dbname = "jobs_portal";
+$dbname = "databasename";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
