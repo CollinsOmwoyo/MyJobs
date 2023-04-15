@@ -1,6 +1,7 @@
 CREATE TABLE employers (
   employer_name VARCHAR(255) NOT NULL PRIMARY KEY,
   employer_icon VARCHAR(255),
+  //will be updating this with BLOB soon
   job_types VARCHAR(255),
   current_applications INT
 );
